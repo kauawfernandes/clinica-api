@@ -1,44 +1,123 @@
-# Clínica API
+# 🏥 Plataforma de Gestão Clínica - Vida+
 
-API REST para gerenciamento de uma clínica médica, permitindo controle de pacientes, médicos e agendamentos de consultas.
+## 📌 Sobre o Projeto
 
-## 🚀 Funcionalidades
-- Cadastro, listagem, atualização e remoção de pacientes
-- Cadastro e gerenciamento de médicos
-- Agendamento de consultas com validações
-- Relacionamento entre pacientes e médicos
+Este projeto foi desenvolvido como parte do **Projeto Integrado** da faculdade, com o objetivo de aplicar conceitos de desenvolvimento de software na criação de uma solução para gestão de uma clínica médica.
 
-## 🛠 Tecnologias
-- Java
-- Spring Boot
-- Spring Data JPA
-- MySQL
+A proposta consiste em desenvolver um sistema que auxilie a clínica **Vida+** na organização de seus processos internos, como cadastro de pacientes, agendamentos e controle de atendimentos.
 
-## 📦 Estrutura do projeto
-- controller → endpoints da API
-- service → regras de negócio
-- repository → acesso ao banco de dados
+---
 
-## ▶️ Como executar
+## 🎯 Objetivo
 
-1. Clonar o repositório:
+Criar uma aplicação simples e funcional que permita:
 
-git clone https://github.com/kauawfernandes/clinica-api.git
+* Cadastro de pacientes
+* Consulta de informações cadastradas
+* Geração de estatísticas básicas
+* Busca de pacientes por nome
+* Organização dos dados de forma estruturada
 
-2. Configurar o banco de dados no `application.properties`
+---
 
-3. Rodar o projeto:
+## ⚙️ Funcionalidades
 
-./mvnw spring-boot:run
+### 👤 Cadastro de Pacientes
 
-4. A API estará disponível em:
+Permite inserir:
 
-http://localhost:8080
+* Nome
+* Idade
+* Telefone
 
-## 📌 Próximas melhorias
-- Autenticação com JWT
-- Documentação com Swagger
-- Testes automatizados
+---
+
+### 📊 Estatísticas
+
+O sistema calcula automaticamente:
+
+* Total de pacientes cadastrados
+* Idade média
+* Paciente mais novo
+* Paciente mais velho
+
+---
+
+### 🔍 Busca de Pacientes
+
+Permite localizar um paciente pelo nome.
+
+---
+
+### 📋 Listagem Geral
+
+Exibe todos os pacientes cadastrados de forma organizada.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* Python
+* Estruturas de dados (listas e dicionários)
+* Lógica de programação
+
+---
+
+## 🧠 Conceitos Aplicados
+
+* Programação estruturada
+* Manipulação de dados
+* Tratamento de erros
+* Menu interativo em loop
+* Lógica booleana (Projeto Integrado)
+
+---
+
+## 🚀 Como Executar
+
+1. Instale o Python (caso não tenha)
+2. Clone este repositório ou baixe os arquivos
+3. Execute o arquivo principal:
+
+```bash
+python main.py
+```
+
+---
+
+## 📌 Estrutura do Projeto
+
+```
+/projeto-clinica
+│
+├── main.py
+├── README.md
+└── docs/
+    ├── diagramas
+    ├── trello
+    └── relatorio
+```
+
+---
+
+## 📈 Metodologia
+
+O projeto segue conceitos da metodologia ágil **Scrum**, com organização das tarefas utilizando o Trello, dividido em sprints.
+
+---
+
+## 📚 Projeto Acadêmico
+
+Este projeto foi desenvolvido para fins educacionais, como parte das atividades do curso, com foco na aplicação prática dos conteúdos estudados.
+
+---
 
 ## 👨‍💻 Autor
-Kauã Fernandes
+
+Desenvolvido por: **Kauã Fernandes**
+
+---
+
+## ✅ Status do Projeto
+
+🚧 Em desenvolvimento
