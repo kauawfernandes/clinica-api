@@ -1,22 +1,29 @@
 # 🏥 Plataforma de Gestão Clínica - Vida+
 
+<p align="center">
+  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow" />
+  <img src="https://img.shields.io/badge/python-3.x-blue" />
+  <img src="https://img.shields.io/badge/projeto-acadêmico-green" />
+</p>
+
+---
+
 ## 📌 Sobre o Projeto
 
 Este projeto foi desenvolvido como parte do **Projeto Integrado** da faculdade, com o objetivo de aplicar conceitos de desenvolvimento de software na criação de uma solução para gestão de uma clínica médica.
 
-A proposta consiste em desenvolver um sistema que auxilie a clínica **Vida+** na organização de seus processos internos, como cadastro de pacientes, agendamentos e controle de atendimentos.
+A aplicação busca resolver problemas reais enfrentados pela clínica **Vida+**, como organização de pacientes, controle de atendimentos e geração de informações relevantes para a administração.
 
 ---
 
 ## 🎯 Objetivo
 
-Criar uma aplicação simples e funcional que permita:
+Desenvolver um sistema simples e funcional que permita:
 
-* Cadastro de pacientes
-* Consulta de informações cadastradas
-* Geração de estatísticas básicas
-* Busca de pacientes por nome
-* Organização dos dados de forma estruturada
+* 👤 Cadastro de pacientes
+* 🔍 Busca de pacientes por nome
+* 📋 Listagem completa dos pacientes
+* 📊 Geração de estatísticas básicas
 
 ---
 
@@ -24,7 +31,7 @@ Criar uma aplicação simples e funcional que permita:
 
 ### 👤 Cadastro de Pacientes
 
-Permite inserir:
+Permite registrar:
 
 * Nome
 * Idade
@@ -45,21 +52,21 @@ O sistema calcula automaticamente:
 
 ### 🔍 Busca de Pacientes
 
-Permite localizar um paciente pelo nome.
+Localização de pacientes pelo nome de forma rápida.
 
 ---
 
 ### 📋 Listagem Geral
 
-Exibe todos os pacientes cadastrados de forma organizada.
+Exibição organizada de todos os pacientes cadastrados.
 
 ---
 
 ## 🛠️ Tecnologias Utilizadas
 
-* Python
-* Estruturas de dados (listas e dicionários)
-* Lógica de programação
+* 🐍 Python
+* 📚 Estruturas de Dados (listas e dicionários)
+* 🧠 Lógica de Programação
 
 ---
 
@@ -69,55 +76,71 @@ Exibe todos os pacientes cadastrados de forma organizada.
 * Manipulação de dados
 * Tratamento de erros
 * Menu interativo em loop
-* Lógica booleana (Projeto Integrado)
+* Lógica booleana
+* Organização de projeto
 
 ---
 
 ## 🚀 Como Executar
 
-1. Instale o Python (caso não tenha)
-2. Clone este repositório ou baixe os arquivos
-3. Execute o arquivo principal:
-
 ```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+
+# Acesse a pasta
+cd projeto-clinica
+
+# Execute o programa
 python main.py
 ```
 
 ---
 
-## 📌 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 ```
-/projeto-clinica
+📁 projeto-clinica
 │
-├── main.py
-├── README.md
-└── docs/
-    ├── diagramas
-    ├── trello
-    └── relatorio
+├── 📄 main.py
+├── 📄 README.md
+└── 📁 docs
+    ├── 📊 diagramas
+    ├── 📌 trello
+    └── 📑 relatorio
 ```
 
 ---
 
 ## 📈 Metodologia
 
-O projeto segue conceitos da metodologia ágil **Scrum**, com organização das tarefas utilizando o Trello, dividido em sprints.
+O projeto segue conceitos da metodologia ágil **Scrum**, com organização das tarefas através do Trello, dividido em sprints para melhor controle do desenvolvimento.
 
 ---
 
-## 📚 Projeto Acadêmico
+## 📚 Contexto Acadêmico
 
-Este projeto foi desenvolvido para fins educacionais, como parte das atividades do curso, com foco na aplicação prática dos conteúdos estudados.
+Projeto desenvolvido como parte das atividades acadêmicas, com foco na aplicação prática dos conteúdos estudados ao longo do semestre.
+
+---
+
+## 💡 Aprendizados
+
+Durante o desenvolvimento deste projeto, foram aplicados conceitos importantes como:
+
+* Organização de código
+* Estruturação de sistemas simples
+* Pensamento lógico
+* Simulação de um projeto real de software
 
 ---
 
 ## 👨‍💻 Autor
 
-Desenvolvido por: **Kauã Fernandes**
+**Kauã Fernandes**
+🔗 GitHub: https://github.com/kauawfernandes
 
 ---
 
-## ✅ Status do Projeto
+## 📌 Status do Projeto
 
 🚧 Em desenvolvimento
