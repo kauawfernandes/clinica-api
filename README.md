@@ -85,7 +85,7 @@ Exibição organizada de todos os pacientes cadastrados.
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/kauawfernandes/clinica-api
 
 # Acesse a pasta
 cd projeto-clinica
